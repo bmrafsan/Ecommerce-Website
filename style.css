@@ -1,0 +1,62 @@
+html{
+    scroll-behavior:  smooth;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+.navbar-toggler-icon{
+    background-image: url(./image/menu.png);
+    
+}
+.nav-item a{
+      font-size: 18px;
+      font-weight: 500;
+     
+    
+}
+ .carousel-caption{
+     transform: translateY(-80%);
+ }
+ .carousel-item img{
+     height: 700px;   
+ }
+ .carousel-caption h1{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 60px;
+     font-weight: 700;
+     color: rgb(100, 193, 255);
+     
+ }
+ .carousel-caption p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 16px;
+     color: rgb(255, 255, 255);
+
+ }
+ .btn-info,.btn-primary{
+     font-size: 18px;
+     font-weight: 500;
+     color: aliceblue;
+ }
+.hover:hover img{
+    transform: scale(1.2);
+}
+.hover img{
+    transition: 1s;
+}
+.hover{
+    overflow: hidden;
+}
+.card-body h5{
+    font-weight: 600;
+
+} 
+ 
+ 
